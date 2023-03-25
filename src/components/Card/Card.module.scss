@@ -1,0 +1,24 @@
+.card {
+  width: 300px;
+  min-height: 300px;
+  margin: 0 20px 20px 0;
+  padding: 20px;
+  background-color: #ecf2f7;
+  border-radius: 10px;
+  cursor: pointer;
+
+  .image {
+    margin: 0 auto 10px auto;
+  }
+
+  .title {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .category {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+}

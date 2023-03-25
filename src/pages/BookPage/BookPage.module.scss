@@ -1,0 +1,63 @@
+.book {
+  display: flex;
+  margin: 40px 100px;
+
+  .image {
+    max-height: 500px;
+  }
+
+  .bookInfo {
+    margin-left: 40px;
+
+    .title {
+      font-size: 3rem;
+      font-weight: 500;
+    }
+
+    .authors {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .categories {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .descriptionTitle {
+      font-size: 1.2rem;
+    }
+
+    .description {
+      text-align: justify;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .book {
+    display: flex;
+    margin: 40px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .book {
+    display: block;
+    margin: 40px;
+
+    .image {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .book {
+    margin: 10px;
+
+    .image {
+      max-width: 280px;
+    }
+  }
+}

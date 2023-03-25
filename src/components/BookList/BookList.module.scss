@@ -1,0 +1,12 @@
+.cardList {
+  margin: 10px 40px 0 60px;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 400px) {
+  .cardList {
+    margin: 10px 0 0 20px;
+  }
+}
